@@ -5,8 +5,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/kthilina/microservice-projects/tree/master/spring-cloud-config-store/primary-config-store
+          uri: https://github.com/kthilina/microservice-projects-config-store
+          search-paths:
+            - 'service-config/*service'
           #username:
           #passphrase:
+
 
 
